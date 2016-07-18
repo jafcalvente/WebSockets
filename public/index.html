@@ -9,5 +9,11 @@
 <body>
 	<h1>WebSockets</h1>
 	<div id='messages'></div>
+	<br>
+	<form onsubmit='return addMessage(this)'>
+		<input type='text' id='username' placeholder='Your name...'>
+		<input type='text' id='text' placeholder='Your message...'>
+		<input type='submit' value='Send'>
+	</form>
 </body>
 </html>
