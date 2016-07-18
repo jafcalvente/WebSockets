@@ -4,7 +4,7 @@
   "description": "Example of using WebSockets with Node.js and Socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/main.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.14.0",
     "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
   }
 }
